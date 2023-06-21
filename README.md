@@ -4,5 +4,5 @@
 
 ```
    npm i nodemailer
-   
+   npm i node-cron
 ```
