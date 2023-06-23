@@ -59,13 +59,17 @@ const subscribeEvents = async (payload) => {
             break;
     }
 }
+// const testingQueue =async(data)=>{
+// console.log("Inside service layer",data);
+// }
 
 module.exports = {
     sendBasicEmail,
     fetchPendingEmails,
     createNotification,
     updateTicket,
-    subscribeEvents
+    subscribeEvents,
+    // testingQueue
 }
 /**
  * SMTP -> a@b.com
